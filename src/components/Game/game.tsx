@@ -37,19 +37,19 @@ function Game() {
     <Container>
       <button onClick={setNewRandomIndex}>GENERATE NEW ONE</button>
       <div>
-        <img className="info" src="../../../assets/BusinessIdeaCard.png" />
+        <img className="info" src="/assets/BusinessIdeaCard.png" />
         <div>
           <p>{businessIdeas[randomIndexes.businessIdeaIndex]}</p>
         </div>
       </div>
       <div>
-        <img className="info" src="../../../assets/ChallengeCard.png" />
+        <img className="info" src="/assets/ChallengeCard.png" />
         <div>
           <p>{problems[randomIndexes.problemsIndex]}</p>
         </div>
       </div>
       <div>
-        <img className="info" src="../../../assets/ProblemCard.png" />
+        <img className="info" src="/assets/ProblemCard.png" />
         <div>
           <p>{challenges[randomIndexes.challengesIndex]}</p>
         </div>

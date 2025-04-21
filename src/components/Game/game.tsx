@@ -35,7 +35,6 @@ function Game() {
 
   return (
     <Container>
-      <button onClick={setNewRandomIndex}>GENERATE NEW ONE</button>
       <div>
         <img className="info" src="assets/BusinessIdeaCard.png" />
         <div>
@@ -54,6 +53,7 @@ function Game() {
           <p>{challenges[randomIndexes.challengesIndex]}</p>
         </div>
       </div>
+      <button onClick={setNewRandomIndex}>GENERATE NEW ONE</button>
     </Container>
   )
 }
